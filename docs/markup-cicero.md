@@ -16,7 +16,7 @@ CiceroMark is similar to Handlebars with two key differences:
 - it is a template language for CommonMark rather than HTML
 - it uses Ergo as an expression language rather than JavaScript
 
-## Purpose
+## A Foundation for Computable Contracts
 
 The CiceroMark markup language is used to turn contracts from static, unstructured, text into structured, machine-readable, documents. Contractual documents may take one of three evolutionary forms: 
 
@@ -24,7 +24,7 @@ The CiceroMark markup language is used to turn contracts from static, unstructur
 2. Text + Model: Defining variables in text using data models, capable of being rendered as structured data objects in formats such as JSON
 3. Text + Model + Logic: Adding logic expressions and functions to structured data objects to define dynamic functionality, such as calculating values
 
-The markup language is intended to act as a standard format for expressing contracts in a natively computable manner; namely forms 2 and 3. It is built to be compatible with other industry standard schemas and domain models:
+The markup language is intended to act as a standard format for expressing contracts in a natively computable manner; namely forms 2 and 3. It is built to be compatible and extensible with other industry standard schemas and domain models:
 
 - [FpML](https://www.fpml.org/) for sharing derivatives data - see [FpML5 Confirmation Model](https://models.accordproject.org/fpml5/confirmation.html)
 - [CommonMark](https://commonmark.org/) - see [CommonMark Model](https://models.accordproject.org/markdown/commonmark.html) 
@@ -32,11 +32,14 @@ The markup language is intended to act as a standard format for expressing contr
 - IETF standards e.g. [RFC 5545](https://tools.ietf.org/html/rfc5545) - see [Calendar Model](https://models.accordproject.org/calendar/calendar.html)
 - ISO standards e.g. [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) - see [Geo Model](https://models.accordproject.org/geo.html)
 
-## Features
+As such, CiceroMark acts as an extensible framework for computable contracts; providing support for existing and future standards, schemas, and models. It is intended that CiceroMark will be used as a foundation upon which extensions for various contract types are built as industries increasingly define domain models and support smart contracts.  
 
-- Extensibility: New models can be defined [WIP] 
+### Features
+
+- Extensibility: New industry models and [statements](https://docs.accordproject.org/docs/logic-module.html) can be easily defined to extend the functionality of the markup language for new domains, contract types, industry standards etc. 
 - Compatibility: Works with industry standard schemas and domain models
 - Understandability: Extends existing, established, templating approaches (e.g. Handlebars)
+- Modularity: **WIP**
 
 ## Example
 
