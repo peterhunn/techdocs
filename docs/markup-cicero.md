@@ -3,7 +3,7 @@ id: markup-cicero
 title: Overview
 ---
 
-## Markup Language for Smart Contracts
+## Markup for Smart Contracts
 
 In order to make a contract or clause executable, there needs to be a link to relate the Template Model to the natural language text of the contract or clause. A markup language is used to insert bindings to the Template Model into the Text. Together, the marked-up Text and Template Model is refered to as the Template Grammar. The Template Grammar defines a syntactically valid contract or clause.
 
