@@ -3,18 +3,26 @@ id: markup-cicero
 title: Overview
 ---
 
-## Principles
+## Markup Language for Smart Contracts
 
-In order to make a clause executable, there needs to be a link to relate the template model to the natural language text that describes the legally enforceable clause. By inserting bindings to the template model into the natural language for the clause via the Accord Project markup language, we create what we call the template grammar. This determines what a syntactically valid clause may look like.
+In order to make a contract or clause executable, there needs to be a link to relate the Template Model to the natural language text of the contract or clause. A markup language is used to insert bindings to the Template Model into the Text. Together, the marked-up Text and Template Model is refered to as the Template Grammar. The Template Grammar defines a syntactically valid contract or clause.
 
 The Accord Project markup language is called CiceroMark. It supports:
-1. Rich text annotations based on [CommonMark](https://commonmark.org)
-2. Template variables and blocks for structured content _in the style of_ [Handlebars](https://handlebarsjs.com)
+1. Rich text annotations based on [CommonMark](https://commonmark.org) - a standard specification for Markdown
+2. Template variables and blocks for structured content _in the style of_ [Handlebars](https://handlebarsjs.com), including [Concerto](https://www.accordproject.org/projects/concerto/) models 
 3. Formulas written as embedded [Ergo](https://docs.accordproject.org/docs/logic-ergo.html) expressions
 
-In a nutshell, CiceroMark is similar to Handlebars with two key differences:
+CiceroMark is similar to Handlebars with two key differences:
 - it is a template language for CommonMark rather than HTML
 - it uses Ergo as an expression language rather than JavaScript
+
+## Purpose
+
+The CiceroMark markup language is used to turn contracts from static, unstructured, text into structured, machine-readable, documents. Contractual documents may take one of three evolutionary forms: 
+
+1. Text: Natural language formats such as .docx or .pdf
+2. Text + Model: Defining variables in text using data models, capable of being rendered as structured data objects in formats such as JSON
+3. Text + Model + Logic: Adding logic expressions and functions to structured data objects to define dynamic functionality, such as calculating values
 
 ## Example
 
