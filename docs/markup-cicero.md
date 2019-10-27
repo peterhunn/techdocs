@@ -16,7 +16,7 @@ CiceroMark is similar to Handlebars with two key differences:
 - it is a template language for CommonMark rather than HTML
 - it uses Ergo as an expression language rather than JavaScript
 
-## A Foundation for Computable Contracts
+## An Extensible Framework for Contracts
 
 The CiceroMark markup language is used to turn contracts from static, unstructured, text into structured, machine-readable, documents. Contractual documents may take one of three evolutionary forms: 
 
