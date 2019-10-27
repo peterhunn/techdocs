@@ -24,6 +24,16 @@ The CiceroMark markup language is used to turn contracts from static, unstructur
 2. Text + Model: Defining variables in text using data models, capable of being rendered as structured data objects in formats such as JSON
 3. Text + Model + Logic: Adding logic expressions and functions to structured data objects to define dynamic functionality, such as calculating values
 
+The markup language is intended to act as a standard format for expressing contracts in a natively computable. It is compatible with other industry standard markup and messaging formats:
+
+- [FpML](https://www.fpml.org/) for sharing derivatives data. See [FpML 5 Confirmation Model](https://models.accordproject.org/fpml5/confirmation.html)
+
+## Features
+
+- Extensibility: New models can be defined [WIP] 
+- Compatibility: Works with industry standard schemas and domain models, e.g. [FpML](https://www.fpml.org/reference-data/); [CommonMark](https://models.accordproject.org/markdown/commonmark.html); [ISDA CDM](https://models.accordproject.org/isda/org.isda.cdm.html); IETF standards e.g. [RFC 5545](https://models.accordproject.org/calendar/calendar.html); ISO standards e.g.. [ISO 3166](https://models.accordproject.org/geo.html)
+- Understandability: Extends existing, established, templating approaches (e.g. Handlebars)
+
 ## Example
 
 Here is an example using a simple fixed-rate interest clause.
