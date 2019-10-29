@@ -13,7 +13,7 @@ The goal of the Accord Project is to provide a common, standardized format for s
 
 ## What is a Smart Legal Contract?
 
-A Smart Legal Contract is a human-readable and machine-readable agreement that is digital, consisting of natural language and executable business logic.
+A Smart Legal Contract is a human-readable and machine-readable agreement that is digital, consisting of structured natural language and may include executable business logic.
 
 - The machine-readable nature of the document enables it to be interpreted and executed by computers. It is this attribute that makes the document “smart”.
 - The human-readable nature of the document ensures that signatories, lawyers, contracting parties and others are able to understand the contract as well as enabling that contracts are able to consist of a hybrid of both ‘smart’ and ‘non-smart’ components.
