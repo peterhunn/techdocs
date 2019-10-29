@@ -31,6 +31,12 @@ at a yearly interest rate of {{rate}}% with a loan term of {{loanDuration}},
 and monthly payments of {{monthlyPayment}}.
 ``` 
 
+This example illustrates:
+
+* Rich text annotations: e.g., ## Fixed rate loan for level 2 heading, and *fixed interest* for italics.
+* Template variables: e.g., {{loanAmount}} is the amount for the loan.
+* Formulas written in Ergo: e.g., {{% monthlyPaymentFormula(loanAmount,rate,loanDuration) %}} which calculates the monthly payment based on the loanAmount, rate, and loanDuration variables.
+
 The Data Model, expressed in the [Concerto] schema language, defines the variables for the template and the associated data types: 
 
 ```
@@ -87,7 +93,7 @@ If this interests you, please visit our [Lifecycle and Industry Working Groups](
 
 ## What are the Accord Projects?
 
-The Accord Project comprises a series of projects that together comprise a technology stack for the creation of smart legal contracts; 
+The Accord Project comprises a series of projects that together comprise a technology stack for the creation of smart legal contracts: 
 
 * [Cicero] - Templating Engine
 * [Ergo] - Expression Language
